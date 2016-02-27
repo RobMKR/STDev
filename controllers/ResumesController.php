@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use yii\web\Controller;
 use app\models\Resumes;
+use yii\web\UploadedFile;
 
 class ResumesController extends Controller {
   public function actionDownload() {
